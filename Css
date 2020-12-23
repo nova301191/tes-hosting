@@ -1,0 +1,96 @@
+.modal-content   {
+    background-color:  #fff;
+}
+.modal-header   {
+    background: #fff url('../img/headbar.jpg') no-repeat top center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:  16px 16px;
+    color:  #FFF;
+    border-bottom: 1px double #1b4075;
+}
+.modal-content ,   .panel ,   .form-control ,   .btn ,   .navbar   {
+    border-radius:   0;
+}
+
+.alert {
+    border-radius: 0;
+    border: none;
+}
+
+body   {
+    background: #fff url('../img/bgz.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container   {
+    padding:   0;
+}
+
+
+.panel-custom   {
+    border-color:  #1d437b;
+}
+.panel-custom .panel-heading   {
+    background: #fff url('../img/headbar.jpg') no-repeat top center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.panel-custom .panel-body  {
+}
+.panel-heading  {
+    border-radius:  0;
+}
+
+
+
+.counter-plus   {
+    background:   #337AB7;
+    color:   #fff;
+}
+.counter-minus   {
+    background:   #d9534f;
+    color:   #fff;
+}
+
+
+/* =====================
+/* custom icon */ 
+/* ===================== */
+.spin   {
+    -webkit-animation:  spin 1000ms infinite linear;
+    animation:  spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin   {
+    0%   {
+        -webkit-transform:  rotate(0deg);
+        transform:  rotate(0deg);
+    }
+    100%   {
+        -webkit-transform:  rotate(359deg);
+        transform:  rotate(359deg);
+    }
+}
+@keyframes spin   {
+    0%   {
+        -webkit-transform:  rotate(0deg);
+        transform:  rotate(0deg);
+    }
+    100%   {
+        -webkit-transform:  rotate(359deg);
+        transform:  rotate(359deg);
+    }
+}
+
+/* =====================
+/* Toggle Styles */
+/* ===================== */
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s e
